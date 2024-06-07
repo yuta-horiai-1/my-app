@@ -1,0 +1,62 @@
+body {
+  font-family: "ヒラギノ丸ゴシック体 W4";
+}
+
+.Css-styles {
+  background-color: #fdfdfd;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Css-styles-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.Css-styles-list {
+  display: grid;
+  width: 80%;
+  height: 80%;
+  grid-gap: 40px;
+  grid-template-columns: repeat(2, auto);
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
+  padding-inline-start: 0;
+  align-content: center;
+}
+
+.Css-styles-items {
+  box-shadow: 0px 0px 15px -5px #777777;
+  border-radius: 10px;
+  min-width: 400px;
+}
+
+.Css-styles-head {
+  border-radius: 10px 10px 0 0;
+  background-color: #ff6969;
+}
+
+.Css-styles-head__heading {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 32px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.Css-styles-body {
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.Css-styles-body__text {
+  font-size: 16px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
